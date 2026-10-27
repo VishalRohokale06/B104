@@ -1,0 +1,72 @@
+nav{
+    display: flex;
+     /* align-items: center; */
+    justify-content: center;
+    justify-content: space-between; 
+    padding: 20px 10%;
+}
+
+nav > div{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    padding-right: 20px;
+}
+
+.searchbutton{
+    display: flex;
+    border: 1px solid #d6c5c5;
+    border-radius: 4px;
+    padding: 10px;
+    min-width: 500px;
+    gap: 10px;
+}
+
+.fa-magnifying-glass{
+    font-size: 15px;
+    color: #706464;
+}
+
+button > div{
+    color: #847979;
+}
+
+#City{
+    border: 2px solid #fff;
+}
+
+.signbutton{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+
+.div3{
+    display: flex;
+    gap: 20px;
+}
+
+.divb{
+    background-color: #f1efef;
+    padding: 20px 10%;
+    border-bottom: 4px solid gray;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.divb1,
+.divb2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #a19898;
+}

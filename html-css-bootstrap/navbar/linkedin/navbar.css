@@ -1,0 +1,81 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body{
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+nav{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   min-height: 55px;
+   border-bottom: 3px solid #f3f2ef;
+   padding: 10;
+}
+
+nav > div{
+    display: flex;
+    min-width: 142px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.coldiv{
+    display: flex;
+    flex-direction: row;   
+    justify-content: center; 
+    gap: 3px;
+}
+
+#search{
+    width: 100%;
+    min-width: 0;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+.searchb{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 200px;
+    height: 34px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    background-color: #fff;
+    flex-shrink: 1;
+}
+
+#search:hover{
+    border: none;
+    outline: none;
+}
+
+.fa-linkedin{
+    font-size: 40px;
+}
+
+.fa-house-chimney,
+.fa-user-group,
+.fa-briefcase,
+.fa-comment-dots,
+.fa-bell,
+.fa-circle-user,
+.fa-table-cells{
+    font-size: 20px;
+}
+
+.line{
+    height: 35px;
+    width: 2px;
+    background-color: rgb(219, 214, 214);
+}
+

@@ -1,0 +1,71 @@
+nav {
+    background-color: rgb(63, 58, 58);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+nav i{
+    color: white;
+    padding: 0px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+div{
+    color: white;
+    /* background-color: blue; */
+}
+
+
+.add-list{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background-color: rgb(63, 58, 58);
+    color: white;
+
+    border: 2px solid #303030;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    /* width: 260px;   */
+}
+
+.add-list:hover {
+    background-color: #292929;
+}
+
+.add-list .fa-rectangle-list{
+    font-size: 25px;
+    /* background-color: aliceblue; */
+}
+
+.fa-caret-down{
+    font-size: 25px;
+    /* background-color: wheat; */
+}
+
+.fa-video{
+    font-size: 25px;
+}
+
+
+.divider{
+    height: 40px;
+    width: 1px;
+    background-color: rgb(83, 87, 91);
+}
+
+.fa-magnifying-glass{
+    font-size: 25px;
+}
+
+.fa-ellipsis-vertical{
+    font-size: 25px;
+}
