@@ -1,0 +1,128 @@
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1 align="center">Registration Form</h1>
+  <form>.
+    <fieldset style="height: 600; width: 500; margin: 1% 32%;">
+    <table align="center" cellpadding="8">
+      <tr>
+        <td><label for="fullname">FullName</label></td>
+        <td>
+          <input
+            type="text"
+            id="firstname"
+            placeholder="Enter Your FirstName"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="email">EmailId</label></td>
+        <td><input type="email" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="password">Password</label></td>
+        <td><input type="password" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="number">Mobile Number</label></td>
+        <td>
+          <input
+            type="tel"
+            pattern="\+91-[6-9][0-9]{9}"
+            placeholder="+91-9876543210"
+            title="Enter a number like +91-9876543210"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="age">Age</label></td>
+        <td><input type="number" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="bdy">Date of Birth</label></td>
+        <td><input type="date" name="birthdate" id="bdy" /></td>
+      </tr>
+
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="Gender" value="m" />Male
+          <input type="radio" name="Gender" value="f" />Female
+        </td>
+      </tr>
+
+      <tr>
+        <td>Hobbies</td>
+        <td>
+          <input type="checkbox" name="Hobbis" value="Playing" />Playing
+          <input type="checkbox" name="Hobbis" value="Swimming" />Swimming
+          <input type="checkbox" name="Hobbis" value="Reading" />Reading
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="Address">Address</label></td>
+        <td>
+          <textarea
+            name="Address"
+            id="Address"
+            rows="4"
+            cols="30"
+            placeholder="Enter your address"
+          ></textarea>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="Course">Select Course</label></td>
+        <td>
+          <select name="Course" id="Course">
+            <option value="">-- Select Course --</option>
+            <option value="IT">Information Technology</option>
+            <option value="CS">Computer Science</option>
+            <option value="ENTC">Electronics</option>
+            <option value="ME">Mechanical</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="profile">Profile Picture</label></td>
+        <td><input type="file" id="profile" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="color">Choose color</label></td>
+        <td><input type="color" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="skill">Skill Level</label></td>
+        <td>
+          <input
+            type="range"
+            name="skill"
+            id="skill"
+            min="0"
+            max="100"
+            value="50"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Register" />
+          <input type="reset" value="Reset" />
+        </td>
+      </tr>
+    </table>
+    </fieldset>
+  </form>
+</body>
